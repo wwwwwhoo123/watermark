@@ -1,0 +1,15 @@
+# output
+save_img: './example/gen_wo'
+
+# VAE-tuned path and Watermark network and watermark path
+vae_path: 'train/src/result/stage1/vae_decoder_best.ckpt'
+wm_path: 'train/src/result/stage1/wm_encoder_decoder_best.ckpt'
+watermark: 'watermark/watermark128.png'
+
+# for stable diffusion
+model_id: 'stabilityai/stable-diffusion-3-medium-diffusers'
+gen_seed: 0
+
+
+
+

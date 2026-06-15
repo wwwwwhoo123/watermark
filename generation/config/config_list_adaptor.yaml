@@ -1,0 +1,24 @@
+# output
+save_img: './example/gen_adapter'
+
+# VAE-tuned path and Watermark network and watermark path
+#=====================128=======================#
+vae_path: 'train/src/result/stage2/vae_decoder_best.ckpt'
+wm_path: 'train/src/result/stage2/wm_encoder_decoder_best.ckpt'
+adaptor_path: 'train/src/result/stage2/adaptor_best.ckpt'
+#=====watermark128=====#
+watermark: 'watermark/watermark128.png'
+
+##====================256=======================#
+#vae_path: 'train/src/result/stage2/vae_decoder_best.ckpt'
+#wm_path: 'train/src/result/stage2/wm_encoder_decoder_best.ckpt'
+#adaptor_path: 'train/src/result/stage2/adaptor_best.ckpt'
+#=====watermark256=====#
+#watermark: 'watermark/watermark256.png'
+
+# for stable diffusion
+model_id: 'stabilityai/stable-diffusion-3-medium-diffusers'
+gen_seed: 0
+
+
+
